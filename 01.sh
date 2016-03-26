@@ -12,7 +12,7 @@ sleep 3
 echo 'Downloading files...'
 echo ' 
 '
-curl -k -o 01.tar.gz http://joname1.github.io/hiwifi-ss/01.tar.gz
+curl -k -o 01.tar.gz https://raw.githubusercontent.com/joname1/hiwifi-ss/gh-pages/01.tar.gz
 echo 'Done!'
 echo ' 
 '
