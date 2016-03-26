@@ -4,13 +4,15 @@
 * 3.需要开启开发者权限。请参考官方的《[开发者模式功能开放公告](http://bbs.hiwifi.com/thread-74899-1-1.html)》。
 
 # 2、安装SS
-* 1. SSH登录极路由：`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
-* 2. 输入安装命令： `cd /tmp && curl -k -o 01.sh http://joname1.github.io/hiwifi-ss/01.sh && sh 01.sh && rm 01.sh`
+* 1. SSH登录极路由：
+`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
+* 2. 输入安装命令： 
+`cd /tmp && curl -k -o 01.sh http://joname1.github.io/hiwifi-ss/01.sh && sh 01.sh && rm 01.sh`
 
 
-* # 3、 配置SS
+# 3、 配置SS
 * 1. 登陆极路由后台开启Shadowsocks插件
-[](https://luoleiorg.b0.upaiyun.com/blog/2015/08/shadow2.jpg)
+![](https://luoleiorg.b0.upaiyun.com/blog/2015/08/shadow2.jpg)
 * 2. 在表单中填写你的SS帐号密码和加密方式，选择智能模式，保存，只要提示运行中 已加速就表示已经成功连上SS了。
 
 ## 注意：
