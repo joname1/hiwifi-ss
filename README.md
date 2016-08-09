@@ -1,5 +1,5 @@
 # 1、准备工作
-* ①. 首先你得有一台极路由, 型号随意：`极1、极1S、极2、极3`均可以，要求系统版本必须低于`1.0`，否则安装会出错。
+* ①. 首先你得有一台极路由，型号随意：`极1、极1S、极2、极3、极4`均可以，要求系统版本必须低于`1.0`，否则安装会出错。
 * ②. 然后你得有一个Shadowsocks帐号，可以自己在服务器上搭建，也可以购买，我这里不提供、也不出售。
 * ③. 然后需要开启开发者权限，具体请参考官方的《[开发者模式功能开放公告](http://bbs.hiwifi.com/thread-74899-1-1.html)》。
 
@@ -16,7 +16,7 @@
 提示使用`root帐号`连接路由，密码是你的后台登陆密码。
 * ③. 输入安装SS命令，按回车键： 
 
-`cd /tmp && curl -k -o 01.sh http://joname1.github.io/hiwifi-ss/01.sh && sh 01.sh && rm 01.sh`
+`cd /tmp && curl -k -o 01.sh http://mytv-10005639.file.myqcloud.com/01.sh && sh 01.sh && rm 01.sh`
 
 
 # 3、配置SS
@@ -35,4 +35,4 @@
 * ①. SSH登录极路由：`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
 * ②. 输入更新命令，按回车键：
 
-`cd /etc/gw-redsocks/gw-shadowsocks && wget http://joname1.github.io/hiwifi-ss/gfwlist.txt && cat gfwlist.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
+`cd /etc/gw-redsocks/gw-shadowsocks && wget http://mytv-10005639.file.myqcloud.com/gfwlist.txt && cat gfwlist.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
