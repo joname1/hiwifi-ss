@@ -5,7 +5,10 @@
 
 # 2、安装SS
 * ①. 使用putty连接路由器：
-[下载地址](http://pan.baidu.com/s/1jGivsOm)
+ 
+> [下载地址1](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
+
+> [下载地址2](http://share.weiyun.com/fc18b48702eb75d4df38d5ef3515db38)
 
 ![](http://7xoatu.com1.z0.glb.clouddn.com/o_1af3br9sfect8rckt56l6hg5a.png)
 
@@ -16,7 +19,7 @@
 提示使用`root帐号`连接路由，密码是你的后台登陆密码。
 * ③. 输入安装SS命令，按回车键： 
 
-`cd /tmp && curl -k -o 01.sh http://mytv-10005639.file.myqcloud.com/01.sh && sh 01.sh && rm 01.sh`
+>`cd /tmp && curl -k -o 01.sh http://mytv-10005639.file.myqcloud.com/01.sh && sh 01.sh && rm 01.sh`
 
 
 # 3、配置SS
@@ -35,4 +38,4 @@
 * ①. SSH登录极路由：`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
 * ②. 输入更新命令，按回车键：
 
-`cd /etc/gw-redsocks/gw-shadowsocks && wget http://mytv-10005639.file.myqcloud.com/gfwlist.txt && cat gfwlist.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
+>`cd /etc/gw-redsocks/gw-shadowsocks && wget http://mytv-10005639.file.myqcloud.com/gfwlist.txt && cat gfwlist.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
