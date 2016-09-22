@@ -1,14 +1,15 @@
 # 1、准备工作
-* ①. 首先你得有一台极路由，型号随意：`极1、极1S、极2、极3、极4`均可以，要求系统版本必须低于`1.0`，否则安装会出错。
+* ①. 首先你得有一台极路由，型号随意。
 * ②. 然后你得有一个Shadowsocks帐号，可以自己在服务器上搭建，也可以购买，我这里不提供、也不出售。
 * ③. 然后需要开启开发者权限，具体请参考官方的《[开发者模式功能开放公告](http://bbs.hiwifi.com/thread-74899-1-1.html)》。
+
+#  注意: 此插件仅适用于__0.9.xxxx__版本.
+# __1.0.xxx__以上版本的, 请[点击](https://github.com/joname1/hiwifi-ss-v1).
 
 # 2、安装SS
 * ①. 使用putty连接路由器：
  
 > [下载地址1](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
-
-> [下载地址2](http://share.weiyun.com/fc18b48702eb75d4df38d5ef3515db38)
 
 ![](http://7xoatu.com1.z0.glb.clouddn.com/o_1af3br9sfect8rckt56l6hg5a.png)
 
@@ -19,7 +20,7 @@
 提示使用`root帐号`连接路由，密码是你的后台登陆密码。
 * ③. 输入安装SS命令，按回车键： 
 
->`cd /tmp && curl -k -o 01.sh http://mytv-10005639.file.myqcloud.com/01.sh && sh 01.sh && rm 01.sh`
+>`cd /tmp && curl -k -o 02.sh http://joe-10005639.file.myqcloud.com/02.sh && sh 02.sh && rm 02.sh`
 
 
 # 3、配置SS
