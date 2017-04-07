@@ -39,4 +39,4 @@
 * ①. SSH登录极路由：`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
 * ②. 输入更新命令，按回车键：
 
->`cd /etc/gw-redsocks/gw-shadowsocks && wget http://mytv-10005639.file.myqcloud.com/gfwlist.txt && cat gfwlist.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
+>`cd /etc/gw-redsocks/gw-shadowsocks && wget https://joe-10005639.file.myqcloud.com/gfwlist_lastest.txt && cat gfwlist_lastest.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
