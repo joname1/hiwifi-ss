@@ -20,7 +20,7 @@
 提示使用`root帐号`连接路由，密码是你的后台登陆密码。
 * ③. 输入安装SS命令，按回车键： 
 
->`cd /tmp && curl -k -o 02.sh http://joe-10005639.cossh.myqcloud.com/02.sh && sh 02.sh && rm 02.sh`
+>`cd /tmp && curl -k -o 02.sh http://pfem6f3z7.bkt.clouddn.com/02.sh && sh 02.sh && rm 02.sh`
 
 
 # 3、配置SS
@@ -39,4 +39,4 @@
 * ①. SSH登录极路由：`ssh root@192.168.199.1 -p 1022`  #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
 * ②. 输入更新命令，按回车键：
 
->`cd /etc/gw-redsocks/gw-shadowsocks && wget http://joe-10005639.cossh.myqcloud.com/gfwlist_lastest.txt && cat gfwlist_lastest.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
+>`cd /etc/gw-redsocks/gw-shadowsocks && wget http://pfem6f3z7.bkt.clouddn.com/gfwlist_lastest.txt && cat gfwlist_lastest.txt >> gw-shadowsocks.dnslist && /etc/init.d/dnsmasq restart`
